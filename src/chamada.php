@@ -7,6 +7,7 @@ function chamada(){
     
     try{
         if(!json_request_google()){
+            exception throw $e;
         };
         // $local_json = './json/response_example.json';
         $local_json = './json/request_example.json';
