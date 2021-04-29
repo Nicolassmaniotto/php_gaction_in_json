@@ -1,0 +1,27 @@
+{
+  "session": {
+    "id": "session_id-1",
+    "params": {
+      "key": "value"
+    }
+  },
+  "prompt": {
+    "override": false, 
+    "firstSimple": {
+      "speech": "Hello world.",
+      "text": "estoi aqui"
+    }
+  },
+  "user": {
+    "locale": "en-US",
+    "params": {
+      "verificationStatus": "VERIFIED",
+      "key": "value"
+    }
+  },
+  "home": {
+    "params": {
+      "key": "value"
+    }
+  }
+}
