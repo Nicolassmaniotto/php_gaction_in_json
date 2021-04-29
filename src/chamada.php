@@ -6,7 +6,7 @@ function chamada(){
     include_once './function_php/request_to_google_home.php';
     
     try{
-        if(!json_request_google();){
+        if(!json_request_google()){
         };
         // $local_json = './json/response_example.json';
         $local_json = './json/request_example.json';
